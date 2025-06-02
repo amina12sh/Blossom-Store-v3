@@ -1,0 +1,13 @@
+workflows:
+  build-apk:
+    name: Build APK with EAS
+    environment:
+      vars:
+        EXPO_TOKEN: NhZZHn9kL3TokPb1JonHapMElysI3wenkdYIBSNX
+      node: 18.16.0
+    scripts:
+      - npm install -g expo-cli eas-cli
+      - npm install
+      - eas build --platform android --profile preview --non-interactive
+    artifacts:
+      - build/**/*.apk
