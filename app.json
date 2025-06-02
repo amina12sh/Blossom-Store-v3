@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Blossom Store",
+    "slug": "blossom-store",
+    "version": "1.0.0",
+    "icon": "./assets/images/icon.png",
+    "sdkVersion": "48.0.0",
+    "platforms": ["android", "ios", "web"],
+    "orientation": "portrait"
+  }
+}
