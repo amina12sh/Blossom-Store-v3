@@ -3,7 +3,7 @@ workflows:
     name: Build APK with EAS
     environment:
       vars:
-        EXPO_TOKEN: NhZZHn9kL3TokPb1JonHapMElysI3wenkdYIBSNX
+        EXPO_TOKEN: Encrypted
       node: 18.16.0
     scripts:
       - npm install -g expo-cli eas-cli
