@@ -4,6 +4,19 @@
       "android": {
         "buildType": "apk"
       }
+    },
+    "production": {
+      "releaseChannel": "production",
+      "distribution": "store",
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "ios": {
+        "simulator": false
+      }
     }
+  },
+  "submit": {
+    "production": {}
   }
 }
